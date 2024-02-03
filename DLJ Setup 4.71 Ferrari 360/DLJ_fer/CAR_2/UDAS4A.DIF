@@ -1,0 +1,57 @@
+ÿ[T:8]
+*****************************************************************
+[N:Analog][M:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:InpCap][M:1]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:941   ] [X:uDas - Input Capture           ] [A:0] [F:6] [RM:2] [CM:00100000]
+2 IC1   =SPEED1 InpCap  0     20 Hz  D     1  SPEED 1        1.000      km/h   0          PCM 16       1 Hz   0         N      3 Hz   000 00001599[LL:0][RL:2]
+2 IC2   =RPM    InpCap  0     20 Hz  D     1   RPM  1        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001602[LL:0][RL:2]
+2 IC3   =SPEED2 InpCap  0     20 Hz  D     1  SPEED 1        1.000      km/h   0          PCM 16       1 Hz   0         N      3 Hz   000 00001601[LL:0][RL:2]
+2 CNT1  =[default][LL:0][RL:2]
+2 CNT2  =[default][LL:0][RL:2]
+2 CNT3  =[default][LL:0][RL:2]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:Can   ][M:2]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:940   ] [X:DashBoard 5 windows             ] [F:12] [A:48] [CM:00001000]
+2 DBAIN1=WATERT Can     0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001467[LL:0][RL:2]
+2 DBAIN2=OILT   Can     0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001468[LL:0][RL:2]
+2 DBAIN3=OILP   Can     1      5 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001465[LL:0][RL:2]
+2 DBAIN4=FUELP  Can     1      5 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001466[LL:0][RL:2]
+2 ----  =[default][LL:0][RL:2]
+2 ----  =[default][LL:0][RL:2]
+2 DBVBAT=BATT   Can     1      5 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001469[LL:0][RL:2]
+2 DBLAP =[default][LL:0][RL:2]
+2 DBRPM =DBRPM  Can     0     20 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001470[LL:0][RL:2]
+2 DBSPEE=[default][LL:0][RL:2]
+2 MAXSPE=[default][LL:0][RL:2]
+2 MINSPE=[default][LL:0][RL:2]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:941/4A] [X:uDas 4 Analog Input             ] [A:84] [F:4] [LM:3] [CM:00001000]
+2 AIN1  =AIN1   Can     3      5 Hz  D     1  LINE  0.000    0.000    5000.000 5.000      PCM 16       1 Hz   0         N      3 Hz   000 00001471[LL:3][RL:2]
+2 AIN2  =AIN2   Can     3      5 Hz  D     1  LINE  0.000    0.000    5000.000 5.000      PCM 16       1 Hz   0         N      3 Hz   000 00001472[LL:3][RL:2]
+2 AIN3  =AIN3   Can     3      5 Hz  D     1  LINE  0.000    0.000    5000.000 5.000      PCM 16       1 Hz   0         N      3 Hz   000 00001473[LL:3][RL:2]
+2 AIN4  =AIN4   Can     3      5 Hz  D     1  LINE  0.000    0.000    5000.000 5.000      PCM 16       1 Hz   0         N      3 Hz   000 00001474[LL:3][RL:2]
+*****************************************************************
+[N:Intern][M:1]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:941   ] [X:uDas - Internal Channel    ] [F:9] [A:0][CM:00000100]
+2 ----  =[default][LL:0][RL:2]
+2 TIME  =TIME   Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001599[LL:0][RL:2]
+2 LAPTIM=[default][LL:0][RL:2]
+2 LAP   =LAP    Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001601[LL:0][RL:2]
+2 RUN   =RUN    Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001751[LL:0][RL:2]
+2 CSEC  =[default][LL:0][RL:2]
+2 MFULL =[default][LL:0][RL:2]
+2 SPACE =SPACE  Intern  0     20 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001605[LL:0][RL:2]
+2 SPEED =SPEED  Intern  0     20 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001606[LL:0][RL:2]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************

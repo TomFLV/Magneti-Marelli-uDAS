@@ -1,0 +1,59 @@
+ÿE[T:8]
+*****************************************************************
+[N:Analog][M:1]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:930/3 ] [X:Das3 - Analog Input         ] [A:0] [F:8] [LM:1] [CM:10000000]
+2 AIN1  =X      Analog  2      1 Hz  D     1  LINE  3000.00  0.00     3400.00  1.00       PCM 16       1 Hz   0         N      3 Hz   000 00001473[LL:1][RL:1]
+2 AIN2  =Y      Analog  2      1 Hz  D     1  LINE  3000.00  0.00     3400.00  1.00       PCM 16       1 Hz   0         N      3 Hz   000 00001474[LL:1][RL:1]
+2 AIN3  =SPDX   Analog  2      1 Hz  D     1  LINE  0.00     0.00     5000.00  100.00     PCM 16       1 Hz   0         N      3 Hz   000 00001476[LL:1][RL:1]
+2 AIN4  =SADX   Analog  2      1 Hz  D     1  LINE  0.00     0.00     5000.00  100.00     PCM 16       1 Hz   0         N      3 Hz   000 00001477[LL:1][RL:1]
+2 AIN5  =STEER  Analog  2     10 Hz  D     1  LINE  0.00     -45.00   5000.00  45.00      PCM 16       1 Hz   0         N      3 Hz   000 00001467[LL:1][RL:1]
+2 AIN6  =SPSX   Analog  2      1 Hz  D     1  LINE  0.00     0.00     5000.00  100.00     PCM 16       1 Hz   0         N      3 Hz   000 00001479[LL:1][RL:1]
+2 AIN7  =SASX   Analog  2     10 Hz  D     1  LINE  0.00     0.00     5000.00  100.00     PCM 16       1 Hz   0         N      3 Hz   000 00001471[LL:1][RL:1]
+2 AIN8  =THROTT Analog  2     10 Hz  D     1  LINE  0.00     0.00     5000.00  100.00     PCM 16       1 Hz   0         N      3 Hz   000 00001468[LL:1][RL:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:InpCap][M:1]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:930/3 ] [X:Das3 - Input Capture         ] [A:0] [F:5] [RM:1] [CM:00100000]
+2 IC1   =SPEED  InpCap  0      1 Hz  D     1  SPEED 1        1.000      km/h   0          PCM 16       1 Hz   0         N      3 Hz   000 00001466[LL:0][RL:1]
+2 IC2   =RPM    InpCap  0     20 Hz  D     1   RPM  1        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001466[LL:0][RL:1]
+2 ----  =[default][LL:0][RL:1]
+2 CNT1  =SPCNT  InpCap  0      0 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001472[LL:0][RL:1]
+2 CNT2  =[default][LL:0][RL:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:Can   ][M:2]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:940   ] [X:DashBoard 5 windows             ] [F:12] [A:48] [CM:00001000]
+2 DBAIN1=WATERT Can     0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001492[LL:0][RL:1]
+2 DBAIN2=OILT   Can     0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001493[LL:0][RL:1]
+2 DBAIN3=OILP   Can     1      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001494[LL:0][RL:1]
+2 DBAIN4=FUELP  Can     1      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001495[LL:0][RL:1]
+2 ----  =[default][LL:0][RL:1]
+2 ----  =[default][LL:0][RL:1]
+2 DBVBAT=BATT   Can     1      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001496[LL:0][RL:1]
+2 DBLAP =[default][LL:0][RL:1]
+2 DBRPM =DBRPM  Can     0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001497[LL:0][RL:1]
+2 DBSPEE=[default][LL:0][RL:1]
+2 MAXSPE=[default][LL:0][RL:1]
+2 MINSPE=[default][LL:0][RL:1]
+*****************************************************************
+[N:Intern][M:1]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[NM:930/3 ] [X:Das3 - Internal Channel] [F:8] [A:0][CM:00000100]
+2 ----  =[default][LL:0][RL:1]
+2 TIME  =TIME   Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001465[LL:0][RL:1]
+2 LAPTIM=[default][LL:0][RL:1]
+2 LAP   =LAP    Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001467[LL:0][RL:1]
+2 RUN   =[default][LL:0][RL:1]
+2 CSEC  =[default][LL:0][RL:1]
+2 MFULL =[default][LL:0][RL:1]
+2 SPACE =SPACE  Intern  0      1 Hz  D     1  N.E.  0        0        0        0          PCM 16       1 Hz   0         N      3 Hz   000 00001471[LL:0][RL:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************
+[N:      ][M:1]
+*****************************************************************

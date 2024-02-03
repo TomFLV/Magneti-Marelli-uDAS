@@ -1,0 +1,57 @@
+[Source Media Descriptions]
+	"1", "WinDAS 2.10 - Setup Disk #1", "SETUP.EXE", "\"
+	"2", "WinDAS 2.10 - Setup Disk #2", "DAS.EX_", "\"
+
+[Default File Settings]
+"STF_BACKUP"     = ""
+"STF_COPY"       = "YES"
+"STF_DECOMPRESS" = "YES"
+"STF_OVERWRITE"  = "ALWAYS"
+"STF_READONLY"   = "YES"
+"STF_ROOT"       = ""
+"STF_SETTIME"    = "YES"
+"STF_TIME"       = "0"
+"STF_VITAL"      = "YES"
+
+[TAXJ]
+	1, WINTAX.TXT,,,, 1995-10-16,,,, !READONLY,,,,,, 9142,,,,, !VITAL
+	1, WINTAXJ.HLP,,,, 1995-09-04,,,, !READONLY,,,,,, 144858,,,,,
+	1, WINTAXJ.EXE,,,, 1996-10-23,,,, !READONLY,,,,,, 1051136,,,,,
+
+[DLSETUP]
+	1, DKPC.DLL,,,, 1996-08-29,,,, !READONLY,,,,,, 34064,,,,,
+	1, DLJSETUP.HLP,,,, 1997-07-23,,,, !READONLY,,,,,, 56667,,,,,
+	1, DLJSETUP.EXE,,,, 1997-10-06,,,, !READONLY,,,,,, 624416,,,,,
+
+[DAS]
+	2, DAS.EXE,,,, 1995-11-14,,,, !READONLY,,,,,, 122048,,,,,
+
+[Files]
+	1, del_tmp.ex_,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 3861,,,,,
+	1, msuilstf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 6144,,,,,
+	1, msshlstf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 14928,,,,,
+	1, msdetstf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 24544,,,,,
+	1, dassetup.ex_,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 29904,,,,,
+	1, setup.exe,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 58496,,,,,
+	1, msinsstf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 65440,,,,,
+	1, mscomstf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 74528,,,,,
+	1, mscuistf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 77228,,,,,
+	1, mscuistf.dll,,,, 1997-10-07, !DECOMPRESS,,, !READONLY,,,,,, 77228,,,,,
+
+
+[ARTAX Config Files]
+	*.*, TAXJ, SETUP, SET_WTX,
+	LOGO*.RLE, TAXJ, , ,
+	*.*, DLSETUP, , SET_DLJS,
+	*.*, DLSETUP, MODULES, MODULES,
+	*.*, DLSETUP, CAR_1, CAR_1,
+	*.*, DLSETUP, CAR_2, CAR_2,
+	*.*, DLSETUP, CAR_3, CAR_3,
+	*.*, DLSETUP, CAR_4, CAR_4,
+	*.*, DLSETUP, CAR_5, CAR_5,
+	*.*, DLSETUP, CAR_6, CAR_6,
+	*.*, DLSETUP, CAR_7, CAR_7,
+	*.*, DLSETUP, CAR_8, CAR_8,
+	DAS3*.*, DLSETUP, CAR_2, CAR_2,
+	LONDON.DTX, TAXJ, DATA, ,
+
